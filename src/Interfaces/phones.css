@@ -1,0 +1,105 @@
+@media screen and (max-width: 540px) {
+
+    .logo {
+        width: 120px;
+    }
+
+    .nav-btn-text {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------------hero section*/
+
+    .hero-section {
+        margin-top: 100px;
+    }
+    .section {
+        margin-top: 50px;
+    }
+    .hero-img {
+        max-width: 300px;
+    }
+    .hero-description {
+        width: 250px;
+    }
+
+    .h2{
+        font-size: 42px;
+    }
+
+
+    /*--------------------- main section */
+
+    .step-box {
+        max-width: 100%;
+    }
+    .steps-block {
+        display: block;
+    }
+    /*---------------------- info section*/
+
+    .info-grid {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .phones-img {
+        width: 350px;
+    }
+
+    /*-------------------------- circle section*/
+
+    .circle-section {
+        border-radius: 0px;
+    }
+
+    .qr-top-part {
+        padding-top: 50px;
+    }
+
+    /*---------------------------------- form section*/
+
+    .form-input, select {
+        max-width: 300px;
+    }
+
+    /*--------------------------footer section */
+
+    .footer-section {
+        margin-top: -50px;
+        background-color: #757575;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .left-part img{
+        width: 36px;
+    }
+
+    .middle-part img {
+        width: 36px;
+    }
+
+    .right-part a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .fb-logo {
+        margin-right: 5px;
+    }
+
+    /*---------copyright section*/
+
+    .copyright-block {
+        display: block;
+    }
+
+    .copyright-section {
+        margin-top: 0px;
+        background-color: #504d4d;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

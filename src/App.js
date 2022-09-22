@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import './Interfaces/Styles.css'
+import './Interfaces/elementsVisual.css'
+import './Interfaces/tablets.css'
+import './Interfaces/phones.css'
+import './Interfaces/custom-resolution.css'
+import {NavBar} from "./Sections/NavBar";
+import {HeroSection} from "./Sections/HeroSection";
+import {MainSection} from "./Sections/MainSection";
+import {CircleSection} from "./Sections/CircleSection";
+import {FormSection} from "./Sections/formSection";
+import {FooterSection} from "./Sections/FooterSection";
+import {CopyrightSection} from "./Sections/CopyrightSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <NavBar/>
+        <HeroSection/>
+        <MainSection/>
+        <CircleSection/>
+        <FormSection/>
+        <FooterSection/>
+        <CopyrightSection/>
     </div>
   );
 }

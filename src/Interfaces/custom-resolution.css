@@ -1,0 +1,42 @@
+@media screen and (max-width: 717px) {
+    .section {
+        margin-top: 50px;
+    }
+
+    .hero-content {
+        display: block;
+    }
+    .hero-description {
+        max-width: 400px;
+    }
+
+    .h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /*--------------main section*/
+
+    .steps-block {
+        grid-template-columns: repeat(2, auto);
+    }
+
+
+    /*--------------footer section*/
+
+    .footer-section {
+        margin-top: -50px;
+        background-color: #757575;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*------------copyright section*/
+
+    .copyright-section {
+        margin-top: 0px;
+        background-color: #504d4d;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

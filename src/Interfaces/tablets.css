@@ -1,0 +1,81 @@
+@media screen and (max-width: 980px) {
+
+    .hero-section {
+        margin-top: 100px;
+    }
+
+    .section {
+        margin-top: 100px;
+    }
+    .nav-items {
+        display: none;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    /*-------------------------hero section*/
+    .white-circle {
+        display: none;
+    }
+    .hero-content{
+        display: inline-flex;
+        gap: 0px;
+    }
+
+    .hero-img{
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .h1{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    /*-------------- ifo section */
+
+    .info-block {
+        display: block;
+    }
+
+    .info-grid {
+        margin-top: 70px;
+        justify-items: center;
+    }
+
+    .phones-img {
+        margin-left: -55px;
+    }
+
+    /*---------------------- circle section*/
+    .circle-section {
+        background-color: #D7EFFF;
+        border-radius: 0px;
+    }
+    .blue-circle {
+        display: none;
+    }
+
+    /*---------------------------------- form section*/
+
+    .form-input, select {
+        max-width: 450px;
+    }
+    /*----------footer section*/
+
+    .footer-section {
+        margin-top: -50px;
+        background-color: #757575;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*----------copyright section*/
+    .copyright-section {
+        margin-top: 0px;
+        background-color: #504d4d;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
